@@ -27,6 +27,6 @@ class SendEmailJob implements ShouldQueue
      */
     public function handle(): void
     {
-        Mail::to('htrainee12@gmail.com')->send(new \App\Mail\SendTestMail());
+        Mail::to('himanshp3282@gmail.com')->send(new \App\Mail\SendTestMail());
     }
 }
